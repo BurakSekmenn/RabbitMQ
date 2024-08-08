@@ -1,5 +1,5 @@
 ﻿// Gelişmiş Kuyruk Mimarisi
-
+//Gelişmiş Kuyruk Mimarisi Ders Notu
 
 // Ders Notları
 // RabbitMq teknolojisini ana fikri, yoğun kaynak gerektiren işleri/görevleri/operasyonları hemen yapmaya koyularak tamamlanmasını beklmek zorunda kalmaksızın, bu işleri ölçeklendirilebilir bir vaziyette daha sonra yapılacak şekilde planlamaktır.
@@ -8,6 +8,9 @@
 // Round-Robin Dispatching Sıralı Gönderim
 // RabbitMQ, default olarak tüm consumer'lara sırasıyla mesaj gönderir
 
+//************************************************************************
+// Message Acknowledgement
+//************************************************************************
 
 // Message Acknowledgement Mesaj Onayı özelliğidir.
 // Şöyle Bir örnek verebiliriz, Bir e-ticaret sitesi düşün günlük 100 sipariş alıyorsun ama sistemde 80 sipariş var burada bir veri kaybı özelliği var biz bu veri kaybını önlemek için mesaj onayı özelliğini kullanırız. İşlem onaylandında rabbitmq geri dönüş sağlarız bu işlem tamamlandı diye. Eğer işlem tamamlanmazsa rabbitmq işlemi tekrar gönderir ve işlem tamamlanana kadar tekrar tekrar gönderir. Bu sayede veri kaybını önlemiş oluruz.
@@ -29,11 +32,19 @@
 // Bazen, consumerlar da istemsiz durumların dışında kendi kontrollerimiz neticisinden mesajları işlememek isteyebilir veyahut ilgili mesajın işlenmesini başarıyla sonuçlandıramyacağımız anlayabiliriz. Böyle durumlarda 'channel.BasicNack' metotunu kullanarak RabbitMQ'ya bilgi verebilir ve mesajı tekrardan işletebiliriz. Tabi burada requeue paramatresi olduça önem arz etmektedir. Bu parametre, bu consumer tarafından işleneyeceği ifade edilen bu mesajın tekrardan kuyruğa eklenip eklenmemsi kararnı vermektedir.Ama veri kaybı yaşanabilir.
 
 
+//************************************************************************
+//Message Durability Notu
+//************************************************************************
+
 
 //Message Durability Mesaj Dayanıklılığı
 // Gencay Hoca Notu;
 // Consumr'ların sıkıntı yaşama durumunda mesajların kaybolmayacağının garantisini nasıl sağlanayacak öğrenmiş olduk. Ancak RabbitMQ sunucusunda bir zeval uğraması durumda ne olacağı konuşmamız gerekiyor. Evet RabbitMQ sunucusunda bir problem meydana geldiğinde yahut kapandığında gg :D , RabbitMq normal şartlarda bir kapanma durumu söz konusu olursa tüm kuyruklar ve mesajlar silenecektir ! böyle bir durumda mesajların kaybalmaması için yani kalıcı olabilmesi içn ekstradan çalışma gerçekleştirme gerekmetedir. Bu çalışma kuyruk ve mesaj açısından kalıcı olarak işaretleme yapmamız gerkemektedir. Örneği Publisher Kısmında var.
 
+
+//************************************************************************
+// Fair dispatching Notu
+//************************************************************************
 
 // Fair Dispatching Adil Gönderim
 // Burada consumerlara eşit bir şekilde iş gönderimi yapabiliriz artık kaç tane varsa ise örnek kodu var bakabilirisin.
