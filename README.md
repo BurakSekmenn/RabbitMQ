@@ -39,4 +39,6 @@ MassTransit kütüphanesini kullanarak RabbitMQ ile nasıl etkileşime geçilece
 - **Configuration and Setup**
 - **Publish-Subscribe Patterns**
 - **Saga Management**
+
+## Kaynak
 Kaynak: Gencay Yıldız - YouTube (RabbitMQ Eğitimi)
