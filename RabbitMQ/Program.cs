@@ -1,4 +1,9 @@
-﻿//RabbitMQ 
+﻿//************************************************************************************************
+//RabbitMQ Hakkında ders notu
+//************************************************************************************************
+
+
+//RabbitMQ 
 
 // Message Queue Nedir ?
 // Message Queue, bir mesajın bir uygulamadan diğerine iletilmesini sağlayan bir iletişim protokolüdür.
