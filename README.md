@@ -14,26 +14,26 @@ Mesajlaşma sistemlerinde yaygın olarak kullanılan tasarım desenlerini araşt
 - **Event-Driven Architecture**
 - **Request-Reply Pattern**
 
-🛠️ Message Durability ve Fair Dispatch
+## 🛠️ Message Durability ve Fair Dispatch
 Mesajların kaybolmaması ve adil dağıtımı için neler yapılabileceğini inceledim:
 - **Durable Queues**
 - **Persistent Messages**
 - **Round-Robin Dispatch**
 
-✔️ Acknowledge Message
+## ✔️ Acknowledge Message
 
 Mesajların başarılı bir şekilde alındığını doğrulamak için kullanılan acknowledge (onaylama) mekanizmasını araştırdım:
 - **Auto Acknowledge**
 - **Manual Acknowledge**
 - **Negative Acknowledgement (Nack)**
 
-🏢 Enterprise Service Bus (ESB)
+## 🏢 Enterprise Service Bus (ESB)
 
 Büyük ölçekli ve karmaşık sistemlerde RabbitMQ'nun ESB olarak nasıl kullanılabileceğini inceledim:
 - **Service Oriented Architecture (SOA)**
 - **Microservices Integration**
 
-📚 MassTransit
+## 📚 MassTransit
 
 MassTransit kütüphanesini kullanarak RabbitMQ ile nasıl etkileşime geçileceğini öğrendim:
 - **Configuration and Setup**
