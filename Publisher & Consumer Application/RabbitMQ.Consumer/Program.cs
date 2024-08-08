@@ -1,4 +1,6 @@
-﻿// Bağlantı Oluşturma
+﻿
+// Basit Düzeyde RabbitMQ Consumer Uygulaması
+// Bağlantı Oluşturma
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 using System.Text;
