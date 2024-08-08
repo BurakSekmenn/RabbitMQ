@@ -1,4 +1,6 @@
-﻿using RabbitMQ.Client;
+﻿//Basit Düzeyde RabbitMQ Publisher Uygulaması
+
+using RabbitMQ.Client;
 using System.Text;
 
 //bağlantı oluşturma
