@@ -1,16 +1,40 @@
-RabbitMQ ve Mesajlaşma Sistemleri Üzerine Derinlemesine İnceleme
-Yakın zamanda RabbitMQ üzerinde kapsamlı bir çalışma gerçekleştirdim ve öğrendiğim konuları GitHub reposuma ekledim. Mesajlaşma sistemlerinde kritik olan bazı kavramları keşfetme fırsatım oldu:
+🚀 RabbitMQ Üzerine Çalışmalarım
+Bu proje, RabbitMQ'yu derinlemesine öğrenmek ve farklı kullanım senaryolarını incelemek amacıyla oluşturulmuştur. Aşağıdaki konular üzerinde çalıştım:
 
---Exchange Types: RabbitMQ'nun farklı exchange türlerini (direct, fanout, topic, header) derinlemesine inceledim. Her birinin mesaj yönlendirme stratejileri ve kullanım senaryolarını öğrendim.
+📜 Exchange Types
+RabbitMQ, mesajları belirli kurallara göre yönlendirmek için çeşitli exchange türleri sunar:
 
---Mesaj Tasarım Desenleri: Mesajların en etkili ve verimli şekilde tasarlanması konusunda çeşitli desenleri inceledim.
+Direct: Belirli routing key ile mesaj yönlendirme.
+Fanout: Tüm kuyruklara mesaj yayınlama.
+Topic: Dinamik routing key ile mesaj yönlendirme.
+Header: Mesaj başlıklarına göre yönlendirme.
+🎨 Mesaj Tasarım Desenleri
+Mesajlaşma sistemlerinde yaygın olarak kullanılan tasarım desenlerini araştırdım:
 
---Message Durability ve Fair Dispatch: Mesajların güvenilirliği ve adil bir şekilde dağıtılması gibi kritik konulara odaklandım.
+Command Pattern
+Event-Driven Architecture
+Request-Reply Pattern
+🛠️ Message Durability ve Fair Dispatch
+Mesajların kaybolmaması ve adil dağıtımı için neler yapılabileceğini inceledim:
 
---Acknowledge Message: Mesaj alımlarının doğrulanması ve bu süreçte yaşanabilecek olası sorunlar hakkında bilgi edindim.
+Durable Queues
+Persistent Messages
+Round-Robin Dispatch
+✔️ Acknowledge Message
+Mesajların başarılı bir şekilde alındığını doğrulamak için kullanılan acknowledge (onaylama) mekanizmasını araştırdım:
 
---Enterprise Service Bus (ESB): Büyük ölçekli uygulamalarda mesajlaşma ve entegrasyonun nasıl sağlanabileceği konusunda detaylı bilgi sahibi oldum.
+Auto Acknowledge
+Manual Acknowledge
+Negative Acknowledgement (Nack)
+🏢 Enterprise Service Bus (ESB)
+Büyük ölçekli ve karmaşık sistemlerde RabbitMQ'nun ESB olarak nasıl kullanılabileceğini inceledim:
 
---MassTransit: RabbitMQ ve diğer mesajlaşma broker'larıyla nasıl çalıştığını öğrendim ve projelerde nasıl kullanılabileceğini inceledim.
+Service Oriented Architecture (SOA)
+Microservices Integration
+📚 MassTransit
+MassTransit kütüphanesini kullanarak RabbitMQ ile nasıl etkileşime geçileceğini öğrendim:
 
-Kaynak: Gencay Yıldız hocamın YouTube kanalındaki değerli içerikler.
+Configuration and Setup
+Publish-Subscribe Patterns
+Saga Management
+Kaynak: Gencay Yıldız - YouTube (RabbitMQ Eğitimi)
