@@ -1,4 +1,4 @@
-
+////Gelişmiş Kuyruk Mimarisi ,Message Acknowledgement,BasicNack,Message Durability,Fair Dispatching  Örnekleri
 
 //using RabbitMQ.Client;
 //using System.Text;

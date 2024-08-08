@@ -1,10 +1,12 @@
-﻿//Gelişmiş Kuyruk Mimarisi ,Message Acknowledgement,BasicNack,Message Durability,Fair Dispatching  Örnekleri
+﻿////Gelişmiş Kuyruk Mimarisi ,Message Acknowledgement,BasicNack,Message Durability,Fair Dispatching  Örnekleri
 
 //using RabbitMQ.Client;
 //using RabbitMQ.Client.Events;
 //using System.Text;
-//// Message Acknowledgemen Örneği
 
+//************************************************************************
+//// Message Acknowledgemen Örneği
+//************************************************************************
 
 //ConnectionFactory factory = new();
 //factory.Uri = new("YouURl");
@@ -35,9 +37,9 @@
 //};
 
 //Console.Read();
-
+//************************************************************************
 // Messae Durability Örneği 
-
+//************************************************************************
 //using RabbitMQ.Client;
 //using RabbitMQ.Client.Events;
 //using System.Text;
@@ -70,7 +72,9 @@
 
 
 
-
+//************************************************************************
+// Fair Dispatch
+//************************************************************************
 
 //Fair Dispatch Örneği Adil Dağıtım
 
