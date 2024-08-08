@@ -1,4 +1,8 @@
-﻿//Exchange Nedir ?
+﻿//*************************************************************************
+// Exchange ve Binding Notu
+//*************************************************************************
+
+//Exchange Nedir ?
 // Publisher tarafından gönderilen mesajların nasıl yönetileceğini ve hangi route'lara gönderileceğini belirleyen bir yapıdır.
 // Exchange, mesajları alır ve bir veya birden fazla kuyruğa yönlendirir.
 // Route ise mesajların exchange üzerinden kuyruklara nsıl gönderğileceğini tanımlayan mekanizmadır.
