@@ -21,19 +21,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQ.Publisher", "Publi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQ.Consumer", "Publisher & Consumer Application\RabbitMQ.Consumer\RabbitMQ.Consumer.csproj", "{804F203F-A330-40B3-B87E-39ABC345003B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Direct Exchange", "Direct Exchange\Direct Exchange.csproj", "{1241B94A-DF14-40EB-9A19-307AA4010E98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Direct Exchange", "Direct Exchange\Direct Exchange.csproj", "{1241B94A-DF14-40EB-9A19-307AA4010E98}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Direct Exchange Example", "Direct Exchange Example", "{8EE35064-5BC0-436F-B71D-FCE9C68855FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectExchane.Publisher", "Direct Exchange Example\DirectExchane.Publisher\DirectExchane.Publisher.csproj", "{4EAD7ED0-9D3E-4C27-A092-29DCE127FC5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DirectExchane.Publisher", "Direct Exchange Example\DirectExchane.Publisher\DirectExchane.Publisher.csproj", "{4EAD7ED0-9D3E-4C27-A092-29DCE127FC5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectExchane.Consumer", "Direct Exchange Example\DirectExchane.Consumer\DirectExchane.Consumer.csproj", "{8779E2DA-3727-4738-8B75-48F820F27CC2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DirectExchane.Consumer", "Direct Exchange Example\DirectExchane.Consumer\DirectExchane.Consumer.csproj", "{8779E2DA-3727-4738-8B75-48F820F27CC2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Fanout Exchange Example", "Fanout Exchange Example", "{13031114-8647-4D1B-A94E-A0436116A745}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fanout.Publisher", "Fanout Exchange Example\Fanout.Publisher\Fanout.Publisher.csproj", "{6878F7B9-C1DD-44DC-87A0-8BCFFD07163A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fanout.Publisher", "Fanout Exchange Example\Fanout.Publisher\Fanout.Publisher.csproj", "{6878F7B9-C1DD-44DC-87A0-8BCFFD07163A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fanout.Consumer", "Fanout Exchange Example\Fanout.Consumer\Fanout.Consumer.csproj", "{789FAA39-D6D1-48D0-AFA8-691A44CC518E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fanout.Consumer", "Fanout Exchange Example\Fanout.Consumer\Fanout.Consumer.csproj", "{789FAA39-D6D1-48D0-AFA8-691A44CC518E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Topic Exchange Example", "Topic Exchange Example", "{79F159E9-D1D9-4B92-BC65-D9404196F54A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Topic.Publisher", "Topic Exchange Example\Topic.Publisher\Topic.Publisher.csproj", "{F7350337-0C2B-4998-9ACD-E1D2E9DECACB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Topic.Customer", "Topic Exchange Example\Topic.Customer\Topic.Customer.csproj", "{FF0CBFA8-D6EB-46D0-8118-5BAF28826458}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -89,6 +95,14 @@ Global
 		{789FAA39-D6D1-48D0-AFA8-691A44CC518E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{789FAA39-D6D1-48D0-AFA8-691A44CC518E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{789FAA39-D6D1-48D0-AFA8-691A44CC518E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7350337-0C2B-4998-9ACD-E1D2E9DECACB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7350337-0C2B-4998-9ACD-E1D2E9DECACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7350337-0C2B-4998-9ACD-E1D2E9DECACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7350337-0C2B-4998-9ACD-E1D2E9DECACB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF0CBFA8-D6EB-46D0-8118-5BAF28826458}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF0CBFA8-D6EB-46D0-8118-5BAF28826458}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF0CBFA8-D6EB-46D0-8118-5BAF28826458}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF0CBFA8-D6EB-46D0-8118-5BAF28826458}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -102,6 +116,8 @@ Global
 		{8779E2DA-3727-4738-8B75-48F820F27CC2} = {8EE35064-5BC0-436F-B71D-FCE9C68855FB}
 		{6878F7B9-C1DD-44DC-87A0-8BCFFD07163A} = {13031114-8647-4D1B-A94E-A0436116A745}
 		{789FAA39-D6D1-48D0-AFA8-691A44CC518E} = {13031114-8647-4D1B-A94E-A0436116A745}
+		{F7350337-0C2B-4998-9ACD-E1D2E9DECACB} = {79F159E9-D1D9-4B92-BC65-D9404196F54A}
+		{FF0CBFA8-D6EB-46D0-8118-5BAF28826458} = {79F159E9-D1D9-4B92-BC65-D9404196F54A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AFDC527F-0B48-4153-8CFF-070BDFE74364}
