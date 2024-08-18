@@ -10,9 +10,11 @@ RabbitMQ, mesajları belirli kurallara göre yönlendirmek için çeşitli excha
 
 ## 🎨 Mesaj Tasarım Desenleri
 Mesajlaşma sistemlerinde yaygın olarak kullanılan tasarım desenlerini araştırdım:
-- **Command Pattern**
-- **Event-Driven Architecture**
-- **Request-Reply Pattern**
+- **Point to Point (P2P)**
+- **Publish/Subscribe**
+- **Work Queue**
+- **Request/Response**
+
 
 ## 🛠️ Message Durability ve Fair Dispatch
 Mesajların kaybolmaması ve adil dağıtımı için neler yapılabileceğini inceledim:
