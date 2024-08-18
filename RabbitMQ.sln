@@ -43,9 +43,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Topic.Customer", "Topic Exc
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Header Exchange Example", "Header Exchange Example", "{A6E4C8DA-4537-41A1-AFC8-5C18DD7907FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Header.Publisher", "Header Exchange Example\Header.Publisher\Header.Publisher.csproj", "{BDFFF8ED-A482-4F62-8BFA-DB80A23F0595}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Header.Publisher", "Header Exchange Example\Header.Publisher\Header.Publisher.csproj", "{BDFFF8ED-A482-4F62-8BFA-DB80A23F0595}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Header.Consumer", "Header Exchange Example\Header.Consumer\Header.Consumer.csproj", "{905596E3-C4DF-47D4-9F57-4BA180A9CDAB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Header.Consumer", "Header Exchange Example\Header.Consumer\Header.Consumer.csproj", "{905596E3-C4DF-47D4-9F57-4BA180A9CDAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mesaj Tasarım(P2P,PUBSUB,WORKQUEUE,REQUESTRESPONSE)", "Mesaj Tasarım(P2P,PUBSUB,WORKQUEUE,REQUESTRESPONSE)\Mesaj Tasarım(P2P,PUBSUB,WORKQUEUE,REQUESTRESPONSE).csproj", "{AAB78D62-78CC-485A-94F6-CC17B3B2C91F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Point to Point (P2P) Example", "Point to Point (P2P) Example", "{1E84DE45-D2AF-4BB7-AD7E-73A8F6B29AD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P2P.Publisher", "Point to Point (P2P) Example\P2P.Publisher\P2P.Publisher.csproj", "{D4EEBDA2-F5B0-44A5-88E5-DD725E0B720B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P2P.Consumer", "Point to Point (P2P) Example\P2P.Consumer\P2P.Consumer.csproj", "{D7D64287-18B0-4C46-87E0-4752B44793BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +125,18 @@ Global
 		{905596E3-C4DF-47D4-9F57-4BA180A9CDAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{905596E3-C4DF-47D4-9F57-4BA180A9CDAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{905596E3-C4DF-47D4-9F57-4BA180A9CDAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAB78D62-78CC-485A-94F6-CC17B3B2C91F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAB78D62-78CC-485A-94F6-CC17B3B2C91F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAB78D62-78CC-485A-94F6-CC17B3B2C91F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAB78D62-78CC-485A-94F6-CC17B3B2C91F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4EEBDA2-F5B0-44A5-88E5-DD725E0B720B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4EEBDA2-F5B0-44A5-88E5-DD725E0B720B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4EEBDA2-F5B0-44A5-88E5-DD725E0B720B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4EEBDA2-F5B0-44A5-88E5-DD725E0B720B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7D64287-18B0-4C46-87E0-4752B44793BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7D64287-18B0-4C46-87E0-4752B44793BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7D64287-18B0-4C46-87E0-4752B44793BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7D64287-18B0-4C46-87E0-4752B44793BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -134,6 +154,8 @@ Global
 		{FF0CBFA8-D6EB-46D0-8118-5BAF28826458} = {79F159E9-D1D9-4B92-BC65-D9404196F54A}
 		{BDFFF8ED-A482-4F62-8BFA-DB80A23F0595} = {A6E4C8DA-4537-41A1-AFC8-5C18DD7907FF}
 		{905596E3-C4DF-47D4-9F57-4BA180A9CDAB} = {A6E4C8DA-4537-41A1-AFC8-5C18DD7907FF}
+		{D4EEBDA2-F5B0-44A5-88E5-DD725E0B720B} = {1E84DE45-D2AF-4BB7-AD7E-73A8F6B29AD4}
+		{D7D64287-18B0-4C46-87E0-4752B44793BB} = {1E84DE45-D2AF-4BB7-AD7E-73A8F6B29AD4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AFDC527F-0B48-4153-8CFF-070BDFE74364}
