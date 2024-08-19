@@ -63,15 +63,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Consumer", "Publish Subscri
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Work Queue Example", "Work Queue Example", "{FE7010E7-6E8C-4CA5-9867-49D6B2581EC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkQueue.Publisher", "Work Queue Example\WorkQueue.Publisher\WorkQueue.Publisher.csproj", "{C1B33B5D-0035-4D8F-B1CA-FC10DA52CBA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkQueue.Publisher", "Work Queue Example\WorkQueue.Publisher\WorkQueue.Publisher.csproj", "{C1B33B5D-0035-4D8F-B1CA-FC10DA52CBA1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkQueue.Consumer", "Work Queue Example\WorkQueue.Consumer\WorkQueue.Consumer.csproj", "{D588B1BF-AAA2-4416-AED0-80D3B81CBEE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkQueue.Consumer", "Work Queue Example\WorkQueue.Consumer\WorkQueue.Consumer.csproj", "{D588B1BF-AAA2-4416-AED0-80D3B81CBEE1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Request Response Example", "Request Response Example", "{4E4E2B1D-C5BE-410D-B792-5910FBC4F045}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequestResponse.Publisher", "Request Response Example\RequestResponse.Publisher\RequestResponse.Publisher.csproj", "{1F333870-8750-46F4-B634-7D1FF86FC462}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RequestResponse.Publisher", "Request Response Example\RequestResponse.Publisher\RequestResponse.Publisher.csproj", "{1F333870-8750-46F4-B634-7D1FF86FC462}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consumer", "Request Response Example\Consumer\Consumer.csproj", "{C39C1C91-0623-43BD-BD3C-A97D0EB4D2F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Consumer", "Request Response Example\Consumer\Consumer.csproj", "{C39C1C91-0623-43BD-BD3C-A97D0EB4D2F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enterprise Service Bus & MassTransit", "Enterprise Service Bus & MassTransit\Enterprise Service Bus & MassTransit.csproj", "{9CCDAB29-718D-4C4F-A55B-6F6CDC90D808}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Enterprise Service Bus & MassTransit Example", "Enterprise Service Bus & MassTransit Example", "{5E4F2FEE-08F9-45DB-BC98-1572F08A31FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassTransit.Publisher", "Enterprise Service Bus & MassTransit Example\MassTransit.Publisher\MassTransit.Publisher.csproj", "{5DDA185D-D045-4736-B6EA-EB80F526ECAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassTransit.Consumer", "Enterprise Service Bus & MassTransit Example\MassTransit.Consumer\MassTransit.Consumer.csproj", "{8CCDFE2D-01D6-49A1-8C62-8C3C921F6C68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassTransit.Shared", "Enterprise Service Bus & MassTransit Example\MassTransit.Shared\MassTransit.Shared.csproj", "{4075AEAC-A2B0-4FFD-80B4-C8CD4499B92B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -179,6 +189,22 @@ Global
 		{C39C1C91-0623-43BD-BD3C-A97D0EB4D2F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C39C1C91-0623-43BD-BD3C-A97D0EB4D2F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C39C1C91-0623-43BD-BD3C-A97D0EB4D2F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CCDAB29-718D-4C4F-A55B-6F6CDC90D808}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CCDAB29-718D-4C4F-A55B-6F6CDC90D808}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CCDAB29-718D-4C4F-A55B-6F6CDC90D808}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CCDAB29-718D-4C4F-A55B-6F6CDC90D808}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DDA185D-D045-4736-B6EA-EB80F526ECAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DDA185D-D045-4736-B6EA-EB80F526ECAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DDA185D-D045-4736-B6EA-EB80F526ECAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DDA185D-D045-4736-B6EA-EB80F526ECAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CCDFE2D-01D6-49A1-8C62-8C3C921F6C68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CCDFE2D-01D6-49A1-8C62-8C3C921F6C68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CCDFE2D-01D6-49A1-8C62-8C3C921F6C68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CCDFE2D-01D6-49A1-8C62-8C3C921F6C68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4075AEAC-A2B0-4FFD-80B4-C8CD4499B92B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4075AEAC-A2B0-4FFD-80B4-C8CD4499B92B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4075AEAC-A2B0-4FFD-80B4-C8CD4499B92B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4075AEAC-A2B0-4FFD-80B4-C8CD4499B92B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -204,6 +230,9 @@ Global
 		{D588B1BF-AAA2-4416-AED0-80D3B81CBEE1} = {FE7010E7-6E8C-4CA5-9867-49D6B2581EC7}
 		{1F333870-8750-46F4-B634-7D1FF86FC462} = {4E4E2B1D-C5BE-410D-B792-5910FBC4F045}
 		{C39C1C91-0623-43BD-BD3C-A97D0EB4D2F9} = {4E4E2B1D-C5BE-410D-B792-5910FBC4F045}
+		{5DDA185D-D045-4736-B6EA-EB80F526ECAA} = {5E4F2FEE-08F9-45DB-BC98-1572F08A31FA}
+		{8CCDFE2D-01D6-49A1-8C62-8C3C921F6C68} = {5E4F2FEE-08F9-45DB-BC98-1572F08A31FA}
+		{4075AEAC-A2B0-4FFD-80B4-C8CD4499B92B} = {5E4F2FEE-08F9-45DB-BC98-1572F08A31FA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AFDC527F-0B48-4153-8CFF-070BDFE74364}
